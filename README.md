@@ -26,6 +26,37 @@ An interactive manifesto and toolkit for reclaiming autonomy through AI-assisted
 ### The Core Philosophy
 
 **OPERATIONAL PHILOSOPHY**: AI is either the final layer of your digital cage, or the wire-cutters that set you free. Choose wisely.
+## 🗺️ System Architecture
+
+```mermaid
+flowchart TD
+    subgraph Awakening["👁️ THE AWAKENING"]
+        See["👀 SEE - Recognize Extraction"]
+        Articulate["🗣️ ARTICULATE - Define Vision"]
+    end
+
+    subgraph Forge["⚒️ THE FORGE"]
+        Build["🛠️ BUILD - Create with AI"]
+        Iterate["🔄 ITERATE - Refine Tools"]
+    end
+
+    subgraph Freedom["🚀 FREEDOM"]
+        Use["⚡ USE - Deploy & Own"]
+        Share["🌐 SHARE - Grow Movement"]
+    end
+
+    See --> Articulate
+    Articulate --> Build
+    Build --> Iterate
+    Iterate --> Use
+    Use --> Share
+    Share -.-> See
+
+    style Awakening fill:#FFF9C4,color:#000
+    style Forge fill:#40C4D4,color:#000
+    style Freedom fill:#4CAF50,color:#000
+```
+
 
 ## 🔄 The Loop
 
